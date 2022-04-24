@@ -1,0 +1,31 @@
+/*medium layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+/*tablet layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
+/*tablet + moblie layout: 768px. */
+@media only screen and (max-width: 991px){
+    .single-portfolio-items{width: 50%;}
+    .offcanvace-menu {width: 60%; right: -60%;}
+    .portfolio-list{margin-bottom: 300px;}
+}
+
+/*mobile layout: 320px. */
+@media only screen and (max-width: 767px){
+    .single-portfolio-items, .single-portfolio-items.boxed{width: 100%;}
+    .offcanvace-menu {width: 100%; right: -100%;}
+    .footer-area{position: relative;}
+    .footer-area .col-md-3{margin-top: 30px;}
+    .portfolio-list{margin-bottom: 0;}
+}
+
+/*wide moblile layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    
+}
+
